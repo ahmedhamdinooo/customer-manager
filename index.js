@@ -19,8 +19,8 @@ app.use(methodOverride('_method'));
 // View Engine
 app.set('view engine', 'ejs');
 
-// Routes
 
+// Routes
 // Home page - List all customers
 app.get('/', (req, res) => {
   Customer.find()
