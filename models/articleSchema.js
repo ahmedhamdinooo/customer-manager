@@ -6,7 +6,7 @@ firstName:String,
 lastName:String,
 Email:String,
 Telephone:String,
-Age:String,
+Age:Number,
 Country:String,
 Gender:String,
 },{timestamps:true})

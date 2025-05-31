@@ -4,11 +4,9 @@ const path = require("path");
 const morgan = require("morgan");
 const moment = require("moment");
 const methodOverride = require("method-override");
-
 const PORT = 3000;
-
 // Database setup
-const mongoose = require('./models/db');
+const mongoose = require('./models/db');  // ده بيشغل الاتصال بقاعدة البيانات
 const Customer = require("./models/articleSchema");
 
 // Middleware
